@@ -1,0 +1,139 @@
+<!DOCTYPE html><html itemscope="" itemtype="http://schema.org/WebPage" lang="vi">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>profile-user</title>
+   
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" >
+    <meta name="twitter:creator" >
+    <meta property="og:site_name">
+    <meta property="og:url" >
+    <meta property="og:type" content="arti">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <meta property="og:title" >
+    <meta property="og:image">
+    <meta property="og:locale" content="vi_vn">
+    <link rel="canonical" href="https://lody.vn/dashboard">
+    <!-- Latest compiled and minified CSS -->
+    <link href="css/font-awesome.css" type="text/css" rel="stylesheet" media="none" />
+    <link href="css/slick.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="google-site-verification" content="TsXUm9vCKEIoowDU9oL3sMbQ_X6VLP1RuxomHSD7bpw" />
+    <meta charset="utf-8">
+    <style>
+           
+           table, th, td
+            {
+  border: 1px solid black;
+            }
+            tr:nth-last-child(even) {background-color: #f2f5f7;}
+            </style>
+    
+    
+   
+<!-- Global site tag (gtag.js) - AdWords: 1031126331 -->
+    </head>
+    
+    <body >
+
+<div class="single-page" style="background-color:#f2f5f7;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sb-dash">
+                    <div class="c-user">
+                        <a class="avt" href="profile.html" title=""><img src="icon.png" alt="" title=""/>
+                        </a>
+                        <p>Họ và tên: <strong>Huỳnh Đức</strong></p>
+                        <p>mssv : <strong>17020688</strong></p>
+                    </div>
+                    <ul class="user-ctrl">
+                        <li>
+                            <a class="smooth" href="profile.html" title="Thông tin cá nhân">
+                                <i class="fa fa-user-circle-o"></i> Thông tin cá nhân
+                            </a>
+                        </li>
+                        <li>
+                            <a class="smooth" href="index.html" title="">
+                                <i class="fa fa-home"></i> Dashboard
+                            </a>
+                        </li>
+                        
+                </div>
+            </div>
+        <div class="col-md-9" id="rightbody">
+            <h2 class="p2-title">Thông tin cá nhân</h2>
+        <div class="profile-tb">
+            <table>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td>Huỳnh Đức</td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mã sinh viên</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td></td>
+                    
+                </tr>
+                
+                
+                
+               
+                </table>
+                <div class="text-right ctrl">
+                    <a class="acc-btn v2 smooth" href="doi-mat-khau" title="Đổi mật khẩu" id="doimk">Change Password</a>
+                    <a class="acc-btn v2 smooth" href="doi-thong-tin" title="Sửa thông tin cá nhân" id="updateinfo">Change Information</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+    
+
+    
+    <style type="text/css">footer .title-col-line { font-size: 24px; color: #1a1a19; text-transform: uppercase; padding-bottom: 10px; display: inline-block;
+    }
+    .btn-showroom { background: #c5a261; font-size: 16px; text-transform: uppercase; padding: 13px 25px; border-radius: 20px; color: #fff; line-height: 16px; display: inline-block; margin: 20px 0;
+    }
+    .btn-showroom:hover { color: #fff; background: #b28a41;
+    }</style>
+    <div class="back-to-top"><i class="fa fa-arrow-up"></i></div>
+</div>  
+</body>
+<script src="theme/user/js/jquery-2.2.1.min.js" defer></script>
+<script src="theme/user/js/bootstrap.min.js" defer></script>
+<script src="theme/user/js/slick.min.js" defer></script>
+<script src="theme/user/js/script.js" defer></script>
+<script language="javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#doimk').click(function(e) {
+            e.preventDefault(); 
+            $('#rightbody').load('repairpass.html');
+        });
+    });
+    </script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#updateinfo').click(function(e) {
+            e.preventDefault(); 
+            $('#rightbody').load('repairinfo.html');
+        });
+    });
+    </script>
+</html>

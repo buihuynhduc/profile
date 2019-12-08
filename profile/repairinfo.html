@@ -1,0 +1,51 @@
+<div class="col-md-9">
+    <h2 class="p2-title bor">Sửa thông tin cá nhân</h2>
+    <small class="error">
+
+    </small>
+    <br>
+    <form class="profile-fr" action="doi-thong-tin" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="csrf_enuy_name" value="5e4da20373748bcec4f8b3973eb41642">
+        <input type="hidden" name="csrf_enuy_name" value="5e4da20373748bcec4f8b3973eb41642">
+    <div class="line">
+        <p>Họ và tên</p>
+        <input type="text" value="Huỳnh Đức" placeholder="Họ và tên" name="name">
+    </div>
+    <div class="line">
+        <p>Ngày sinh</p>
+        <input type="date" value="" placeholder="Ngày sinh" name="birthday">
+    </div>
+    <div class="line">
+        <p>Email</p>
+        <input type="text" value="" placeholder="Email" name="email">
+    </div>
+    <div class="line">
+        <p>Mã sinh viên</p>
+        <input type="text" placeholder="Mã sinh viên" value="" name="phone">
+    </div>
+    <div class="line">
+        <p>Điện thoại</p>
+        <input type="text" placeholder="Điện thoại" value="" name="address">
+    </div>
+    <div class="line">
+        <p>Ảnh đại diện</p>
+        
+        <div class="table bot">
+            <div class="cell">
+                <label class="avt-upload">
+                    <input type="file" name="file" accept="image/x-png,image/gif,image/jpeg">
+                    <span><i class="fa fa-file-image-o"></i>
+                        <button type="button" class="hidden"></button>
+                    </span>
+                </label>
+            </div>
+        <div class="cell" style="width: 100px"><img src="fb_2132333133712513" style="max-width: 100px;max-height: 100px;" alt="">
+    </div>
+</div>
+</div>
+<div class="line">
+    <button class="smooth acc-btn v2" style="margin: 0" type="submit">Update</button>
+</div>
+</form>
+
+</div>
